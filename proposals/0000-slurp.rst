@@ -224,7 +224,7 @@ Separating the registry from storage of the package tarballs themselves
 allows package hosting to be *federated* and *decentralized*. 
 For example, if you are
 the maintainer of ``bytestring``, Hackage lets you "own" the
-``https://hackage.haskell.org/package/bytestring`` URL, so it's a legit
+``https://hackage.haskell.org/package/bytestring`` URL, so it's a legitimate
 place to store all the different versions of ``bytestring``. But as the
 maintainer, you could as well have decided to store the package
 elsewhere instead. Why do we need to force the whole package universe
