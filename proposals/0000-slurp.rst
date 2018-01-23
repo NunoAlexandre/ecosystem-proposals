@@ -210,8 +210,7 @@ hosting server from Day 1, without change.
 We put forward no requirement on the guarantees provided by package
 hosting services. For example, we do not impose that getting a
 particular package tarball for (say) ``pkg-3.5.3`` always yields the
-same result each time. (In Hackage, for example, the presence of
-revisions may mean it will not.) Immutability, or lack thereof, is an
+same result each time. Immutability, or lack thereof, is an
 example of hosting-service specific policy that does not concern SLURP.
 
 6 Key properties
@@ -247,11 +246,7 @@ with a simple
     $ git push --tags origin master
 
 Each package repository (Hackage, Stackage, SomeOtherPackageHost etc) is
-free to define their own policies. Hackage can choose to stick to
-mutable packages as they do now. Stackage can decide that all packages
-uploaded there are always immutable. Hackage can decide to reject
-packages that don't stick to the PVP. Stackage can impose their own
-rules.
+free to define their own policies.
 
 6.2 Liberal namespacing
 ~~~~~~~~~~~~~~~~~~~~~~~
