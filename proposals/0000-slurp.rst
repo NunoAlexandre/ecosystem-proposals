@@ -2,6 +2,10 @@
                      accepted.
 
 .. highlight:: haskell
+
+**NOTE**: This proposal is currently "parked" pending discussions of
+alternatives, see `this comment <https://github.com/haskell/ecosystem-proposals/pull/4#issuecomment-360089938>`__.
+
 SLURP: a Single Liberal Unified Registry of Haskell Packages
 ================================================
 
